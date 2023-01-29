@@ -6,6 +6,11 @@ addEventListener("DOMContentLoaded", () =>{
             barra_nav.classList.toggle('show')
         })
     }
+    if(barra_nav){
+    barra_nav.addEventListener('click', () =>{
+        barra_nav.classList.toggle('hide')
+    })
+    }
 })
 
 
