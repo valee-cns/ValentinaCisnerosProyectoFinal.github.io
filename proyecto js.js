@@ -6,12 +6,6 @@ addEventListener("DOMContentLoaded", () =>{
             barra_nav.classList.toggle('show')
         })
     }
-    const boton_ocultar = document.getElememtById('ocultar')
-    if(boton_ocultar){
-    boton_ocultar.addEventListener('click', () =>{
-        barra_nav.classList.toggle('hide')
-    })
-    }
 })
 
 
